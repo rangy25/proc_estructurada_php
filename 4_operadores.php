@@ -40,22 +40,22 @@
 
         if( $x == 9 && $Y == 3)
         { 
-            echo "Estas en lo correcto "
+            echo "Estas en lo correcto ";
         } 
         
     ?>
 
-<h2>De union de cadenas</h2>
+    <h2>De union de cadenas</h2>
 
-<?php
+    <?php
     $nombre = "Angelica";
     $apellidos = "Rodriguez";
 
     $nombre_completo = $nombre. " ".$apellidos;
 
-    echo $nombre_completo
+    echo $nombre_completo;
 
 
-?>
+    ?>
 </body>
 </html>
